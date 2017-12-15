@@ -1,0 +1,9 @@
+PRAGMA synchronous = OFF;
+PRAGMA journal_mode = MEMORY;
+BEGIN TRANSACTION;
+CREATE TABLE `table_test1` (
+  `tbts_id` integer  NOT NULL PRIMARY KEY AUTOINCREMENT
+,  `tbts_name` varchar(255) NOT NULL
+,  `tbts_updated` timestamp NOT NULL
+);
+END TRANSACTION;

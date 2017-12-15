@@ -1,0 +1,5 @@
+CREATE TABLE `table_test1` (
+  `tbts_id` int(11) unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `tbts_name` varchar(255) NOT NULL,
+  `tbts_updated` timestamp NOT NULL
+) ENGINE='MRG_MYISAM' COLLATE 'utf8_general_ci';
